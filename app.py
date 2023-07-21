@@ -1,5 +1,5 @@
 import streamlit as st
-from main import main
+# from main import main
 from ultralytics import YOLO
 import shutil
 
