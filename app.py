@@ -7,7 +7,7 @@ model = YOLO('yolov8m.pt')
 
 st.title('Object Detection')
 
-main()
+# main()
 
 if st.button("Detect Object"):
     model.predict(source = 'processed_image.jpg', save = True, conf = 0.7)
